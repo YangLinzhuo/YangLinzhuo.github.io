@@ -5,35 +5,524 @@
         <link>https://yanglinzhuo.github.io</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Wed, 18 Aug 2021 21:50:35 +0800</pubDate>
-        <lastBuildDate>Wed, 18 Aug 2021 21:50:35 +0800</lastBuildDate>
+        <pubDate>Sat, 21 Aug 2021 21:45:43 +0800</pubDate>
+        <lastBuildDate>Sat, 21 Aug 2021 21:45:43 +0800</lastBuildDate>
+        <category>Hexo</category>
         <item>
-            <guid isPermalink="true">https://yanglinzhuo.github.io/2021/08/18/blog-content-test/</guid>
+            <guid isPermalink="true">https://yanglinzhuo.github.io/Hexo/blog-content-test/</guid>
             <title>博客内容测试</title>
-            <link>https://yanglinzhuo.github.io/2021/08/18/blog-content-test/</link>
-            <pubDate>Wed, 18 Aug 2021 21:50:35 +0800</pubDate>
-            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&#34;&gt;&lt;p&gt;测试博客配置，后续添加其他方面的测试。&lt;/p&gt;
+            <link>https://yanglinzhuo.github.io/Hexo/blog-content-test/</link>
+            <category>Hexo</category>
+            <pubDate>Sat, 21 Aug 2021 21:45:43 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;关于本博客&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于本博客&#34;&gt;#&lt;/a&gt; 关于本博客&lt;/h1&gt;
+&lt;p&gt;本人其实很久之前即有搭建博客的想法了，之前也使用过  &lt;code&gt;Hugo&lt;/code&gt;  进行尝试，也配置了一些主题，但是往往搭建好之后都没有时间去写博文，因此网站搭建完成之后便不在问津了。这次想着捡起来，是因自己这一年经历了比较多的事情，感觉有很多内容想要记录下来，但是又不太想在其他社交平台上发表，于是最终选择了博客这种形式来记录自己的想法。&lt;/p&gt;
+&lt;p&gt;本博客的内容可能各种各样，包括但不限于计算机相关的技术类文章、历史类相关的读书笔记等，基本上就是 “随心所欲”，有什么想记录下来的内容便写上几笔。若能对到访寒舍的看官有所裨益，当是最好不过的了。由于本人略带一点强迫症，可能各篇文章的创建时间和修改时间会相差很大，这点读者如有发现还勿见怪。&lt;/p&gt;
+&lt;h1 id=&#34;关于本文&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于本文&#34;&gt;#&lt;/a&gt; 关于本文&lt;/h1&gt;
+&lt;p&gt;本文大概是本博客的第一篇正式文章，主要用于记录本博客主题相关的内容，随时有可能发生更改，不过现在基本上博客主题已经搭建成型，中途遇见的问题和  &lt;code&gt;bug&lt;/code&gt;  也都基本解决，后续的变动应当不大。顺便也会记录使用的主题之外的其他插件的使用。喜欢这个主题或者某些插件功能的读者可以作为参考。&lt;/p&gt;
+&lt;h1 id=&#34;关于使用的主题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于使用的主题&#34;&gt;#&lt;/a&gt; 关于使用的主题&lt;/h1&gt;
+&lt;p&gt;本博客使用的主题是  &lt;code&gt;shoka&lt;/code&gt;  ，是本人在寻找  &lt;code&gt;Hexo&lt;/code&gt;  主题的时候 u 无意间发现的，第一眼就喜欢上了。不过，目前的样式比较偏向少女风格，之后可能会视情况进行自定义修改！！（不过目前这样感觉也还行，反正基本上都是自己看，问题不大）!!。&lt;/p&gt;
+&lt;p&gt;这个主题的作者应该是一个小姐姐，想更详细了解本主题的相关内容，可以访问作者的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUv&#34;&gt;主页&lt;/span&gt;。&lt;/p&gt;
+&lt;h1 id=&#34;功能测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#功能测试&#34;&gt;#&lt;/a&gt; 功能测试&lt;/h1&gt;
+&lt;p&gt;下文内容主要用于主题提供的功能进行测试，对于遇到的一些  &lt;code&gt;bug&lt;/code&gt;  也会提及。&lt;/p&gt;
+&lt;h2 id=&#34;bug&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#bug&#34;&gt;#&lt;/a&gt; Bug&lt;/h2&gt;
+&lt;p&gt;本主题提供的功能主要依赖于  &lt;code&gt;hexo-markdown-render-it&lt;/code&gt;  插件，而本人在使用过程中也碰到了许多问题，花了几天才基本上解决，着实是费了一番功夫。&lt;/p&gt;
+&lt;h3 id=&#34;_configshokayml-配置文件无法生效&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#_configshokayml-配置文件无法生效&#34;&gt;#&lt;/a&gt;  &lt;code&gt;_config.shoka.yml&lt;/code&gt;  配置文件无法生效&lt;/h3&gt;
+&lt;p&gt;第一个大的问题是  &lt;code&gt;_config.shoka.yml&lt;/code&gt;  配置文件中和插件相关的  &lt;code&gt;markdown&lt;/code&gt;  选项设置无法生效。主要原因是在  &lt;code&gt;Hexo&lt;/code&gt;  进行渲染时，读取到的配置变量  &lt;code&gt;hexo.config&lt;/code&gt;  中没有  &lt;code&gt;markdown&lt;/code&gt;  相关的内容，该部分配置的内容在另一个变量  &lt;code&gt;hexo.config.theme_config.markdown&lt;/code&gt;  中，因而在生成静态文件的过程中无法读取到正确的配置，从而一直使用默认的配置，使得无法对插件的功能进行自定义！！（这怎么能忍！）!!。&lt;/p&gt;
+&lt;p&gt;本人一开始的解决方法是找到相关的代码，将  &lt;code&gt;hexo.config.theme_config.markdown&lt;/code&gt;  的内容也添加到  &lt;code&gt;hexo.config&lt;/code&gt;  中去。但是在调试过程中，发现了一个非常 “骇人” 的  &lt;code&gt;bug&lt;/code&gt; ，尽管  &lt;code&gt;hexo.config&lt;/code&gt;  的内容已经添加了和  &lt;code&gt;markdown&lt;/code&gt;  相关的配置内容，插件的脚本中读取到的配置也是自定义的，但是生成的网页内容依然使用的默认配置！！（差点要吐血）!!。&lt;/p&gt;
+&lt;p&gt;在网上搜索解决方法的过程中，发现直接修改  &lt;code&gt;npm&lt;/code&gt;  安装的插件内容可能无法生效，因此只得暂时作罢。&lt;/p&gt;
+&lt;h3 id=&#34;自定义插件相关脚本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自定义插件相关脚本&#34;&gt;#&lt;/a&gt; 自定义插件相关脚本&lt;/h3&gt;
+&lt;p&gt;上述  &lt;code&gt;bug&lt;/code&gt;  困扰了我很久，最后找到了另一种解决方式。本人将插件相关的代码移动到了主题文件夹中  &lt;code&gt;scripts&lt;/code&gt;  文件夹下的  &lt;code&gt;renderer&lt;/code&gt;  文件夹，其余依赖的  &lt;code&gt;markdown-it&lt;/code&gt;  相关插件则依旧通过正常方式安装，通过自己编写  &lt;code&gt;js&lt;/code&gt;  代码的方式注册相关的渲染器，调用相关插件的功能。目前基本上解决了上述  &lt;code&gt;bug&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;其他和功能相关的  &lt;code&gt;bug&lt;/code&gt;  则放在各个功能说明中，这里不再赘述。&lt;/p&gt;
+&lt;h2 id=&#34;图片&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#图片&#34;&gt;#&lt;/a&gt; 图片&lt;/h2&gt;
+&lt;h3 id=&#34;插入本地图片&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#插入本地图片&#34;&gt;#&lt;/a&gt; 插入本地图片&lt;/h3&gt;
+&lt;p&gt;本人常用的头像：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;images/avatar.jpg&#34; alt=&#34;本人常用头像&#34; title=&#34;本人常用头像&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;插入网络图片&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#插入网络图片&#34;&gt;#&lt;/a&gt; 插入网络图片&lt;/h3&gt;
+&lt;p&gt;本主题的默认头像：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg&#34; alt=&#34;主题默认头像&#34; title=&#34;主题默认头像&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;表格&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#表格&#34;&gt;#&lt;/a&gt; 表格&lt;/h2&gt;
+&lt;p&gt;表格 1&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Markdown&lt;/th&gt;
+&lt;th&gt;Rendered HTML&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;pre&gt;&lt;code&gt;*Italic*
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;em&gt;Italic&lt;/em&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;pre&gt;&lt;code&gt;- Item 1
+- Item 2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;Item 1&lt;/li&gt;
+&lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;pre&gt;&lt;code&gt;```python
+.1 + .2
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;.1&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;.2&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;表格 2&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Stage&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Direct Products&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;ATP Yields&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34; rowspan=&#34;2&#34;&gt;Glycolysis&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34; colspan=&#34;2&#34;&gt;2 ATP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;2 NADH&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;3--5 ATP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;Pyruvaye oxidation&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;2 NADH&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;5 ATP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34; rowspan=&#34;3&#34;&gt;Citric acid cycle&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34; colspan=&#34;2&#34;&gt;2 ATP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;6 NADH&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;15 ATP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;2 FADH2&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;3 ATP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34; colspan=&#34;3&#34;&gt;&lt;strong&gt;30--32&lt;/strong&gt; ATP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;表格 3&lt;/p&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;♜&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;♝&lt;/td&gt;
+&lt;td&gt;♛&lt;/td&gt;
+&lt;td&gt;♚&lt;/td&gt;
+&lt;td&gt;♝&lt;/td&gt;
+&lt;td&gt;♞&lt;/td&gt;
+&lt;td&gt;♜&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;♟&lt;/td&gt;
+&lt;td&gt;♟&lt;/td&gt;
+&lt;td&gt;♟&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;♟&lt;/td&gt;
+&lt;td&gt;♟&lt;/td&gt;
+&lt;td&gt;♟&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;♟&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;♞&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;♗&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;♟&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;♙&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;♘&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;♙&lt;/td&gt;
+&lt;td&gt;♙&lt;/td&gt;
+&lt;td&gt;♙&lt;/td&gt;
+&lt;td&gt;♙&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;♙&lt;/td&gt;
+&lt;td&gt;♙&lt;/td&gt;
+&lt;td&gt;♙&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;♖&lt;/td&gt;
+&lt;td&gt;♘&lt;/td&gt;
+&lt;td&gt;♗&lt;/td&gt;
+&lt;td&gt;♕&lt;/td&gt;
+&lt;td&gt;♔&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;♖&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;列表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#列表&#34;&gt;#&lt;/a&gt; 列表&lt;/h2&gt;
+&lt;p&gt;添加了 hexo 博客的 header 模板&lt;/p&gt;
+&lt;p&gt;测试博客配置，后续添加其他方面的测试。&lt;/p&gt;
+&lt;p&gt;vscode 不会默认开启 markdown 的代码提示功能，需要自己在设置中进行配置修改。&lt;/p&gt;
+&lt;p&gt;参考链接 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudGhpc2ZhbmVyLmNvbS9wL2VkaXQtbWFya2Rvd24tZWZmaWNpZW50bHktaW4tdnNjb2RlLw==&#34;&gt;在 VSCode 中高效编辑 markdown 的正确方式&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;为 wsl 设置代理 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8xNTMxMjQ0Njg=&#34;&gt;参考链接&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;MPE 插件的一些有用的功能
+图片
+数学公式渲染&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-language&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Markdown Preview Enhanced 部分扩展功能 &lt;sup class=&#34;footnote-ref&#34;&gt;&lt;a href=&#34;#fn1&#34; id=&#34;fnref1&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt; 另一个 footnote &lt;sup class=&#34;footnote-ref&#34;&gt;&lt;a href=&#34;#fn2&#34; id=&#34;fnref2&#34;&gt;[2]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;脚注的标识符中不要增加数字，否则显示的时候会多出一个序号，影响美观。&lt;/p&gt;
+&lt;h2 id=&#34;链接块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#链接块&#34;&gt;#&lt;/a&gt; 链接块&lt;/h2&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;霜月琉璃&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;優萌初華&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;琉璃的医学 &amp; 编程笔记&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;item&#34; title=&#34;霜月琉璃&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;/images/avatar.jpg&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;優萌初華&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;https://shoka.lostyu.me&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;item&#34; title=&#34;優萌初華&#34; style=&#34;--block-color:#9d5b8b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;/images/404.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;優萌初華&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;琉璃的医学 &amp; 编程笔记&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;代码块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#代码块&#34;&gt;#&lt;/a&gt; 代码块&lt;/h2&gt;
+&lt;p&gt;代码块如果要正常显示，需要在  &lt;code&gt;_config.yml&lt;/code&gt;  中将  &lt;code&gt;highlight&lt;/code&gt;  和  &lt;code&gt;prismjs&lt;/code&gt;  的  &lt;code&gt;enable&lt;/code&gt;  选项都设置为  &lt;code&gt;false&lt;/code&gt; ，否则  &lt;code&gt;Hexo&lt;/code&gt;  会进行预处理，导致后续  &lt;code&gt;markdown-it&lt;/code&gt;  渲染时，代码块的内容乱码，导致插件无法正常识别代码块，使得渲染失败。&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;span&gt;行高亮&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;参考链接&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;java&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;util&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt; in &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;in&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 输入 Scan 之后，按下键盘 Alt + “/” 键，Eclipse 下自动补全。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;println &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;in&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;nextLine &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;println &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Hello&#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;world.&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;命令行提示符&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;pwd&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;/usr/home/chris/bin&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt; -la&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[admin@remotehost] #&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;total &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[admin@remotehost] #&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;drwxr-xr-x   &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt; chris  chris     &lt;span class=&#34;token number&#34;&gt;11&lt;/span&gt; Jan &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;16&lt;/span&gt;:48 &lt;span class=&#34;token builtin class-name&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[admin@remotehost] #&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;drwxr--r-x  &lt;span class=&#34;token number&#34;&gt;45&lt;/span&gt; chris  chris     &lt;span class=&#34;token number&#34;&gt;92&lt;/span&gt; Feb &lt;span class=&#34;token number&#34;&gt;14&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;11&lt;/span&gt;:10 &lt;span class=&#34;token punctuation&#34;&gt;..&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;-rwxr-xr-x   &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; chris  chris    &lt;span class=&#34;token number&#34;&gt;444&lt;/span&gt; Aug &lt;span class=&#34;token number&#34;&gt;25&lt;/span&gt;  &lt;span class=&#34;token number&#34;&gt;2013&lt;/span&gt; backup&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;-rwxr-xr-x   &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; chris  chris    &lt;span class=&#34;token number&#34;&gt;642&lt;/span&gt; Jan &lt;span class=&#34;token number&#34;&gt;17&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;14&lt;/span&gt;:42 deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; -A&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; commit -m &lt;span class=&#34;token string&#34;&gt;&#34;update&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; push&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;练习题与答案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#练习题与答案&#34;&gt;#&lt;/a&gt; 练习题与答案&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li class=&#34;quiz true&#34;&gt;
+&lt;p&gt;编译时多态主要指运算符重载与函数重载，而运行时多态主要指虚函数。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz multi&#34;&gt;
+&lt;p&gt;有基类  &lt;code&gt;SHAPE&lt;/code&gt; ，派生类  &lt;code&gt;CIRCLE&lt;/code&gt; ，声明如下变量： &lt;/p&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;SHAPE shape1&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;p1&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;CIRCLE circle1&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;q1&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;下列哪些项是 “派生类对象替换基类对象”。&lt;/p&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li class=&#34;correct&#34;&gt;&lt;code&gt;p1=&amp;amp;circle1;&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;q1=&amp;amp;shape1;&lt;/code&gt;&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;&lt;code&gt;shape1=circle1;&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;circle1=shape1;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;✔️ 令基类对象的指针指向派生类对象&lt;/li&gt;
+&lt;li&gt;❌ 派生类指针指向基类的引用&lt;/li&gt;
+&lt;li&gt;✔️ 派生类对象给基类对象赋值&lt;/li&gt;
+&lt;li&gt;❌ 基类对象给派生类对象赋值&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz&#34;&gt;
+&lt;p&gt;下列叙述正确的是 &lt;span class=&#34;gap&#34;&gt;&lt;/span&gt; 。&lt;/p&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;虚函数只能定义成无参函数&lt;/li&gt;
+&lt;li&gt;虚函数不能有返回值&lt;/li&gt;
+&lt;li&gt;能定义虚构造函数&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;A、B、C 都不对&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz fill&#34;&gt;
+&lt;p&gt;如果定义  &lt;code&gt;int e=8; double f=6.4, g=8.9;&lt;/code&gt; ，则表达式  &lt;code&gt;f+int (e/3*int (f+g)/2)%4&lt;/code&gt;  的值为 &lt;span class=&#34;gap&#34;&gt;9.4&lt;/span&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意运算顺序和数据类型
+&lt;span class=&#34;mistake&#34;&gt; 8.4&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;emoji&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#emoji&#34;&gt;#&lt;/a&gt; emoji&lt;/h2&gt;
+&lt;p&gt;😘
+💍
+🎶&lt;/p&gt;
+&lt;h2 id=&#34;文字特效&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文字特效&#34;&gt;#&lt;/a&gt; 文字特效&lt;/h2&gt;
+&lt;p&gt;因为  &lt;code&gt;markdown-it-pangu&lt;/code&gt;  插件的缘故，某些代码中可能会被加入空格，这有可能导致一些解析错误，使用时需要注意。&lt;/p&gt;
+&lt;p&gt;&lt;ins&gt;下划线&lt;/ins&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ins class=&#34;wavy&#34;&gt;波浪线&lt;/ins&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ins class=&#34;dot&#34;&gt;着重点&lt;/ins&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ins class=&#34;primary&#34;&gt;紫色下划线&lt;/ins&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ins class=&#34;wavy success&#34;&gt;绿色波浪线&lt;/ins&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ins class=&#34;dot warning&#34;&gt;黄色着重点&lt;/ins&gt;&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;删除线&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;&lt;s class=&#34;danger&#34;&gt;红色删除线&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;== 荧光高亮 ==&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;赤橙黄绿青蓝紫&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;red&#34;&gt;红色&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;pink&#34;&gt;粉色&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;orange&#34;&gt;橙色&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;yellow&#34;&gt;黄色&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;green&#34;&gt;绿色&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;aqua&#34;&gt;靛青&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;blue&#34;&gt;蓝色&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;purple&#34;&gt;紫色&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;grey&#34;&gt;灰色&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;快捷键 &lt;span class=&#34;kbd&#34;&gt;Ctrl&lt;/span&gt; + &lt;span class=&#34;kbd red&#34;&gt;C&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;0&lt;/p&gt;
+&lt;p&gt;29&lt;sup&gt;th&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;隐藏文字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#隐藏文字&#34;&gt;#&lt;/a&gt; 隐藏文字&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;balabala&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;spoiler bulr&#34; title=&#34;你知道得太多了&#34;&gt;balabala&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;标签块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#标签块&#34;&gt;#&lt;/a&gt; 标签块&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;label&#34;&gt;default&lt;/span&gt;
+&lt;span class=&#34;label primary&#34;&gt;primary&lt;/span&gt;
+&lt;span class=&#34;label info&#34;&gt;info&lt;/span&gt;
+&lt;span class=&#34;label success&#34;&gt;✔️success&lt;/span&gt;
+&lt;span class=&#34;label warning&#34;&gt;warning&lt;/span&gt;
+&lt;span class=&#34;label danger&#34;&gt;💔danger&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;提醒块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#提醒块&#34;&gt;#&lt;/a&gt; 提醒块&lt;/h2&gt;
+&lt;div class=&#34;note default&#34;&gt;
+&lt;p&gt;默认默认&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note primary&#34;&gt;
+&lt;p&gt;基本基本&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;提示提示&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note success&#34;&gt;
+&lt;p&gt;成功成功&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;警告警告&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note danger&#34;&gt;
+&lt;p&gt;危险危险&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note danger no-icon&#34;&gt;
+&lt;p&gt;危险危险&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;标签卡&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#标签卡&#34;&gt;#&lt;/a&gt; 标签卡&lt;/h2&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;卡片 1&#34;&gt;
+&lt;p&gt;这里是卡片 1 的内容
+&lt;strong&gt;加粗&lt;/strong&gt;
+&lt;span class=&#34;label success&#34;&gt; success&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;霜月琉璃&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;優萌初華&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;琉璃的医学 &amp; 编程笔记&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;卡片 2&#34;&gt;
+&lt;p&gt;这里是卡片 2 的内容&lt;/p&gt;
+&lt;div class=&#34;note danger&#34;&gt;
+&lt;p&gt;危险危险&lt;/p&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;第一行&lt;/li&gt;
+&lt;li&gt;第二行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id2&#34; data-title=&#34;②号标签卡片 1&#34;&gt;
+&lt;p&gt;这里是卡片 1 的内容&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id2&#34; data-title=&#34;②号标签卡片 2&#34;&gt;
+&lt;p&gt;这里是卡片 2 的内容&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;折叠块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#折叠块&#34;&gt;#&lt;/a&gt; 折叠块&lt;/h2&gt;
+&lt;details&gt;&lt;summary&gt;默认默认 这里是一段文字&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;&lt;ins&gt;下划线&lt;/ins&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;紫色&lt;/summary&gt;&lt;div&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;参考信息&lt;/p&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;第一行&lt;/li&gt;
+&lt;li&gt;第二行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;蓝色&lt;/summary&gt;&lt;div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id3&#34; data-title=&#34;卡片 1&#34;&gt;
+&lt;p&gt;这里是卡片 1 的内容&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id3&#34; data-title=&#34;卡片 2&#34;&gt;
+&lt;p&gt;这里是卡片 2 的内容&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;success&#34;&gt;&lt;summary&gt;绿色&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;優萌初華&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;/images/404.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;優萌初華&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;https://shoka.lostyu.me&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;黄色&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;!! 警告警告警告警告警告！！{.bulr}
+&lt;span class=&#34;label success&#34;&gt;label&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;danger&#34;&gt;&lt;summary&gt;红色&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;&lt;span class=&#34;label danger&#34;&gt;danger&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;h2 id=&#34;待办事项&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#待办事项&#34;&gt;#&lt;/a&gt; 待办事项&lt;/h2&gt;
+&lt;ul class=&#34;task-list danger&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_0&#34;&gt; 这是一个小叉叉&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_1&#34;&gt; 这是一个红色勾勾&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class=&#34;task-list primary&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_2&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_2&#34;&gt; 未完成&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_3&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_3&#34;&gt; 完成&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_4&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_4&#34;&gt; 未完成&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_5&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_5&#34;&gt; 默认颜色&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;文字注音&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文字注音&#34;&gt;#&lt;/a&gt; 文字注音&lt;/h2&gt;
+&lt;p&gt;furigana&lt;/p&gt;
+&lt;p&gt;&lt;ruby&gt;取&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;と&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt; り&lt;rt&gt;&lt;/rt&gt;返&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;かえ&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt; す&lt;rt&gt;&lt;/rt&gt;&lt;/ruby&gt;&lt;/p&gt;
+&lt;h2 id=&#34;多媒体&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多媒体&#34;&gt;#&lt;/a&gt; 多媒体&lt;/h2&gt;
+&lt;p&gt;&lt;div class=&#34;media-container&#34;&gt;&lt;div class=&#34;player&#34; data-type=&#34;audio&#34; data-src=&#39;[{&#34;title&#34;:&#34;列表 1&#34;,&#34;list&#34;:[&#34;https://music.163.com/#/playlist?id=2943811283&#34;,&#34;https://music.163.com/#/playlist?id=2297706586&#34;]},{&#34;title&#34;:&#34;列表 2&#34;,&#34;list&#34;:[&#34;https://music.163.com/#/playlist?id=2031842656&#34;]}]&#39;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;视频插入存在无法读取的问题，后续修正插入  &lt;code&gt;iframe&lt;/code&gt;  标签中进行修正。&lt;/p&gt;
+&lt;p&gt;&lt;style&gt;.bbplayer{width: 100%; max-width: 850px; margin: auto}&lt;/style&gt;&lt;div class=&#34;bbplayer&#34;&gt;&lt;iframe class=&#34;bbplayer&#34; id=&#34;mmedia-KWvnujRYSnPryXfs&#34; src=&#34;https://player.bilibili.com/player.html?bvid=1G64y1t7G9&amp;page=1&amp;high_quality=1&amp;danmaku=false&#34; allowfullscreen=&#34;allowfullscreen&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;0&#34; framespacing=&#34;0&#34; sandbox=&#34;allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;script&gt; document.getElementById(&#34;mmedia-KWvnujRYSnPryXfs&#34;).style.height=document.getElementById(&#34;mmedia-KWvnujRYSnPryXfs&#34;).scrollWidth*0.76+&#34;px&#34;;
+    window.onresize = function(){
+      document.getElementById(&#34;mmedia-KWvnujRYSnPryXfs&#34;).style.height=document.getElementById(&#34;mmedia-KWvnujRYSnPryXfs&#34;).scrollWidth*0.76+&#34;px&#34;;
+    }; &lt;/script&gt;&lt;/p&gt;
+&lt;h2 id=&#34;数学公式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数学公式&#34;&gt;#&lt;/a&gt; 数学公式&lt;/h2&gt;
+&lt;p&gt;行内公式：&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msqrt&gt;&lt;mrow&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;/msqrt&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;msup&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\sqrt {3x-1}+(1+x)^2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.04em;vertical-align:-0.17444499999999996em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord sqrt&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8655550000000001em;&#34;&gt;&lt;span class=&#34;svg-align&#34; style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34; style=&#34;padding-left:0.833em;&#34;&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.825555em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;hide-tail&#34; style=&#34;min-width:0.853em;height:1.08em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#39;400em&#39; height=&#39;1.08em&#39; viewBox=&#39;0 0 400000 1080&#39; preserveAspectRatio=&#39;xMinYMin slice&#39;&gt;&lt;path d=&#39;M95,702
+c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,-10,-9.5,-14
+c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54
+c44.2,-33.3,65.8,-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10
+s173,378,173,378c0.7,0,35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429
+c69,-144,104.5,-217.7,106.5,-221
+l0 -0
+c5.3,-9.3,12,-14,20,-14
+H400000v40H845.2724
+s-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7
+c-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z
+M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.17444499999999996em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.064108em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8141079999999999em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;独立块显示：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mtable rowspacing=&#34;0.1600em&#34; columnalign=&#34;center&#34; columnspacing=&#34;1em&#34;&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∇&lt;/mi&gt;&lt;mo&gt;×&lt;/mo&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi mathvariant=&#34;bold&#34;&gt;B&lt;/mi&gt;&lt;mo&gt;⃗&lt;/mo&gt;&lt;/mover&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mtext&gt; &lt;/mtext&gt;&lt;mfrac&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;/mfrac&gt;&lt;mtext&gt; &lt;/mtext&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∂&lt;/mi&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi mathvariant=&#34;bold&#34;&gt;E&lt;/mi&gt;&lt;mo&gt;⃗&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∂&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;/mrow&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;/mfrac&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi mathvariant=&#34;bold&#34;&gt;j&lt;/mi&gt;&lt;mo&gt;⃗&lt;/mo&gt;&lt;/mover&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∇&lt;/mi&gt;&lt;mo&gt;⋅&lt;/mo&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi mathvariant=&#34;bold&#34;&gt;E&lt;/mi&gt;&lt;mo&gt;⃗&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mi&gt;ρ&lt;/mi&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∇&lt;/mi&gt;&lt;mo&gt;×&lt;/mo&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi mathvariant=&#34;bold&#34;&gt;E&lt;/mi&gt;&lt;mo&gt;⃗&lt;/mo&gt;&lt;/mover&gt;&lt;mtext&gt; &lt;/mtext&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mtext&gt; &lt;/mtext&gt;&lt;mfrac&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;/mfrac&gt;&lt;mtext&gt; &lt;/mtext&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∂&lt;/mi&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi mathvariant=&#34;bold&#34;&gt;B&lt;/mi&gt;&lt;mo&gt;⃗&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∂&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mn mathvariant=&#34;bold&#34;&gt;0&lt;/mn&gt;&lt;mo&gt;⃗&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∇&lt;/mi&gt;&lt;mo&gt;⋅&lt;/mo&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi mathvariant=&#34;bold&#34;&gt;B&lt;/mi&gt;&lt;mo&gt;⃗&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;/mtable&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\begin {array}{c}
+
+\nabla \times \vec {\mathbf {B}} -\, \frac1c\, \frac {\partial\vec {\mathbf {E}}}{\partial t} &amp;amp;
+= \frac {4\pi}{c}\vec {\mathbf {j}}    \nabla \cdot \vec {\mathbf {E}} &amp;amp; = 4 \pi \rho \\
+
+\nabla \times \vec {\mathbf {E}}\, +\, \frac1c\, \frac {\partial\vec {\mathbf {B}}}{\partial t} &amp;amp; = \vec {\mathbf {0}} \\
+
+\nabla \cdot \vec {\mathbf {B}} &amp;amp; = 0
+
+\end {array}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:4.1938640000000005em;vertical-align:-1.846932em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mtable&#34;&gt;&lt;span class=&#34;arraycolsep&#34; style=&#34;width:0.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;col-align-c&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:2.3469320000000002em;&#34;&gt;&lt;span style=&#34;top:-4.346932000000001em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.072377em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;∇&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;×&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord accent&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.9691099999999999em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathbf&#34;&gt;B&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.25511em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;accent-body&#34; style=&#34;left:-0.15216em;&#34;&gt;&lt;span class=&#34;overlay&#34; style=&#34;height:0.714em;width:0.471em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#39;0.471em&#39; height=&#39;0.714em&#39; style=&#39;width:0.471em&#39; viewBox=&#39;0 0 471 714&#39; preserveAspectRatio=&#39;xMinYMin&#39;&gt;&lt;path d=&#39;M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.845108em;&#34;&gt;&lt;span style=&#34;top:-2.6550000000000002em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;c&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.072377em;&#34;&gt;&lt;span style=&#34;top:-2.6550000000000002em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34; style=&#34;margin-right:0.05556em;&#34;&gt;∂&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;t&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34; style=&#34;margin-right:0.05556em;&#34;&gt;∂&lt;/span&gt;&lt;span class=&#34;mord accent mtight&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.9691099999999999em;&#34;&gt;&lt;span style=&#34;top:-2.714em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.714em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathbf mtight&#34;&gt;E&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.96911em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.714em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;accent-body&#34; style=&#34;left:-0.15216em;&#34;&gt;&lt;span class=&#34;overlay mtight&#34; style=&#34;height:0.714em;width:0.471em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#39;0.471em&#39; height=&#39;0.714em&#39; style=&#39;width:0.471em&#39; viewBox=&#39;0 0 471 714&#39; preserveAspectRatio=&#39;xMinYMin&#39;&gt;&lt;path d=&#39;M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.9145549999999996em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.072377em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;∇&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;×&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord accent&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.9691099999999999em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathbf&#34;&gt;E&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.25511em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;accent-body&#34; style=&#34;left:-0.15216em;&#34;&gt;&lt;span class=&#34;overlay&#34; style=&#34;height:0.714em;width:0.471em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#39;0.471em&#39; height=&#39;0.714em&#39; style=&#39;width:0.471em&#39; viewBox=&#39;0 0 471 714&#39; preserveAspectRatio=&#39;xMinYMin&#39;&gt;&lt;path d=&#39;M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.845108em;&#34;&gt;&lt;span style=&#34;top:-2.6550000000000002em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;c&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.072377em;&#34;&gt;&lt;span style=&#34;top:-2.6550000000000002em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34; style=&#34;margin-right:0.05556em;&#34;&gt;∂&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;t&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34; style=&#34;margin-right:0.05556em;&#34;&gt;∂&lt;/span&gt;&lt;span class=&#34;mord accent mtight&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.9691099999999999em;&#34;&gt;&lt;span style=&#34;top:-2.714em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.714em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathbf mtight&#34;&gt;B&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.96911em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.714em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;accent-body&#34; style=&#34;left:-0.15216em;&#34;&gt;&lt;span class=&#34;overlay mtight&#34; style=&#34;height:0.714em;width:0.471em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#39;0.471em&#39; height=&#39;0.714em&#39; style=&#39;width:0.471em&#39; viewBox=&#39;0 0 471 714&#39; preserveAspectRatio=&#39;xMinYMin&#39;&gt;&lt;path d=&#39;M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-1.585445em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.072377em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;∇&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;⋅&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord accent&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.9691099999999999em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathbf&#34;&gt;B&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.25511em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;accent-body&#34; style=&#34;left:-0.15216em;&#34;&gt;&lt;span class=&#34;overlay&#34; style=&#34;height:0.714em;width:0.471em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#39;0.471em&#39; height=&#39;0.714em&#39; style=&#39;width:0.471em&#39; viewBox=&#39;0 0 471 714&#39; preserveAspectRatio=&#39;xMinYMin&#39;&gt;&lt;path d=&#39;M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.846932em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;arraycolsep&#34; style=&#34;width:0.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;arraycolsep&#34; style=&#34;width:0.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;col-align-c&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:2.3469320000000002em;&#34;&gt;&lt;span style=&#34;top:-4.346932000000001em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.072377em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.845108em;&#34;&gt;&lt;span style=&#34;top:-2.6550000000000002em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;c&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord accent&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.9774399999999999em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathbf&#34;&gt;j&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.26344em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;accent-body&#34; style=&#34;left:-0.2355em;&#34;&gt;&lt;span class=&#34;overlay&#34; style=&#34;height:0.714em;width:0.471em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#39;0.471em&#39; height=&#39;0.714em&#39; style=&#39;width:0.471em&#39; viewBox=&#39;0 0 471 714&#39; preserveAspectRatio=&#39;xMinYMin&#39;&gt;&lt;path d=&#39;M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.19444em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;∇&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;⋅&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord accent&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.9691099999999999em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathbf&#34;&gt;E&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.25511em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;accent-body&#34; style=&#34;left:-0.15216em;&#34;&gt;&lt;span class=&#34;overlay&#34; style=&#34;height:0.714em;width:0.471em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#39;0.471em&#39; height=&#39;0.714em&#39; style=&#39;width:0.471em&#39; viewBox=&#39;0 0 471 714&#39; preserveAspectRatio=&#39;xMinYMin&#39;&gt;&lt;path d=&#39;M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.9145549999999996em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.072377em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord accent&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.92744em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathbf&#34;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.21344em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;accent-body&#34; style=&#34;left:-0.2355em;&#34;&gt;&lt;span class=&#34;overlay&#34; style=&#34;height:0.714em;width:0.471em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#39;0.471em&#39; height=&#39;0.714em&#39; style=&#39;width:0.471em&#39; viewBox=&#39;0 0 471 714&#39; preserveAspectRatio=&#39;xMinYMin&#39;&gt;&lt;path d=&#39;M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-1.585445em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.072377em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.846932em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;arraycolsep&#34; style=&#34;width:0.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;arraycolsep&#34; style=&#34;width:0.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;col-align-c&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:2.3469320000000002em;&#34;&gt;&lt;span style=&#34;top:-4.346932000000001em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.072377em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;ρ&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;arraycolsep&#34; style=&#34;width:0.5em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;流程图&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#流程图&#34;&gt;#&lt;/a&gt; 流程图&lt;/h2&gt;
+&lt;pre class=&#34;mermaid graph&#34;&gt;&lt;svg id=&#34;mermaid-1629821296149&#34; width=&#34;100%&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34; height=&#34;167&#34; style=&#34;max-width: 498.2359313964844px;&#34; viewBox=&#34;0 0 498.2359313964844 167&#34;&gt;&lt;g&gt;&lt;g class=&#34;output&#34;&gt;&lt;g class=&#34;clusters&#34;&gt;&lt;/g&gt;&lt;g class=&#34;edgePaths&#34;&gt;&lt;g class=&#34;edgePath LS-A LE-B&#34; id=&#34;L-A-B&#34; style=&#34;opacity: 1;&#34;&gt;&lt;path class=&#34;path&#34; d=&#34;M103.65391791044776,69.75L171.0390625,39L247.625,39&#34; marker-end=&#34;url(#arrowhead15)&#34; style=&#34;fill:none&#34;&gt;&lt;/path&gt;&lt;defs&gt;&lt;marker id=&#34;arrowhead15&#34; viewBox=&#34;0 0 10 10&#34; refX=&#34;9&#34; refY=&#34;5&#34; markerUnits=&#34;strokeWidth&#34; markerWidth=&#34;8&#34; markerHeight=&#34;6&#34; orient=&#34;auto&#34;&gt;&lt;path d=&#34;M 0 0 L 10 5 L 0 10 z&#34; class=&#34;arrowheadPath&#34; style=&#34;stroke-width: 1; stroke-dasharray: 1, 0;&#34;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;/g&gt;&lt;g class=&#34;edgePath LS-A LE-C&#34; id=&#34;L-A-C&#34; style=&#34;opacity: 1;&#34;&gt;&lt;path class=&#34;path&#34; d=&#34;M103.65391791044776,108.75L171.0390625,139.5L228.234375,139.5&#34; marker-end=&#34;url(#arrowhead16)&#34; style=&#34;fill:none&#34;&gt;&lt;/path&gt;&lt;defs&gt;&lt;marker id=&#34;arrowhead16&#34; viewBox=&#34;0 0 10 10&#34; refX=&#34;9&#34; refY=&#34;5&#34; markerUnits=&#34;strokeWidth&#34; markerWidth=&#34;8&#34; markerHeight=&#34;6&#34; orient=&#34;auto&#34;&gt;&lt;path d=&#34;M 0 0 L 10 5 L 0 10 z&#34; class=&#34;arrowheadPath&#34; style=&#34;stroke-width: 1; stroke-dasharray: 1, 0;&#34;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;/g&gt;&lt;g class=&#34;edgePath LS-B LE-D&#34; id=&#34;L-B-D&#34; style=&#34;opacity: 1;&#34;&gt;&lt;path class=&#34;path&#34; d=&#34;M309.625,39L354.015625,39L400.86979721089864,68.39582702616195&#34; marker-end=&#34;url(#arrowhead17)&#34; style=&#34;fill:none&#34;&gt;&lt;/path&gt;&lt;defs&gt;&lt;marker id=&#34;arrowhead17&#34; viewBox=&#34;0 0 10 10&#34; refX=&#34;9&#34; refY=&#34;5&#34; markerUnits=&#34;strokeWidth&#34; markerWidth=&#34;8&#34; markerHeight=&#34;6&#34; orient=&#34;auto&#34;&gt;&lt;path d=&#34;M 0 0 L 10 5 L 0 10 z&#34; class=&#34;arrowheadPath&#34; style=&#34;stroke-width: 1; stroke-dasharray: 1, 0;&#34;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;/g&gt;&lt;g class=&#34;edgePath LS-C LE-D&#34; id=&#34;L-C-D&#34; style=&#34;opacity: 1;&#34;&gt;&lt;path class=&#34;path&#34; d=&#34;M329.015625,139.5L354.015625,139.5L400.86979815084356,111.10417238790404&#34; marker-end=&#34;url(#arrowhead18)&#34; style=&#34;fill:none&#34;&gt;&lt;/path&gt;&lt;defs&gt;&lt;marker id=&#34;arrowhead18&#34; viewBox=&#34;0 0 10 10&#34; refX=&#34;9&#34; refY=&#34;5&#34; markerUnits=&#34;strokeWidth&#34; markerWidth=&#34;8&#34; markerHeight=&#34;6&#34; orient=&#34;auto&#34;&gt;&lt;path d=&#34;M 0 0 L 10 5 L 0 10 z&#34; class=&#34;arrowheadPath&#34; style=&#34;stroke-width: 1; stroke-dasharray: 1, 0;&#34;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;edgeLabels&#34;&gt;&lt;g class=&#34;edgeLabel&#34; transform=&#34;translate(171.0390625,39)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;g transform=&#34;translate(-32.1953125,-9.5)&#34; class=&#34;label&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; width=&#34;64.359375&#34; height=&#34;19.03125&#34;&gt;&lt;/rect&gt;&lt;text&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;Link text&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;edgeLabel&#34; transform=&#34;&#34; style=&#34;opacity: 1;&#34;&gt;&lt;g transform=&#34;translate(0,0)&#34; class=&#34;label&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; width=&#34;0&#34; height=&#34;0&#34;&gt;&lt;/rect&gt;&lt;text&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;edgeLabel&#34; transform=&#34;&#34; style=&#34;opacity: 1;&#34;&gt;&lt;g transform=&#34;translate(0,0)&#34; class=&#34;label&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; width=&#34;0&#34; height=&#34;0&#34;&gt;&lt;/rect&gt;&lt;text&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;edgeLabel&#34; transform=&#34;&#34; style=&#34;opacity: 1;&#34;&gt;&lt;g transform=&#34;translate(0,0)&#34; class=&#34;label&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; width=&#34;0&#34; height=&#34;0&#34;&gt;&lt;/rect&gt;&lt;text&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;nodes&#34;&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-A-8&#34; transform=&#34;translate(60.921875,89.25)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;rect rx=&#34;0&#34; ry=&#34;0&#34; x=&#34;-52.921875&#34; y=&#34;-19.5&#34; width=&#34;105.84375&#34; height=&#34;39&#34; class=&#34;label-container&#34;&gt;&lt;/rect&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-42.921875,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;Square Rect&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-B-9&#34; transform=&#34;translate(278.625,39)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;circle x=&#34;-31&#34; y=&#34;-19.5&#34; r=&#34;31&#34; class=&#34;label-container&#34;&gt;&lt;/circle&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-21,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;Circle&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-C-11&#34; transform=&#34;translate(278.625,139.5)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;rect rx=&#34;5&#34; ry=&#34;5&#34; x=&#34;-50.390625&#34; y=&#34;-19.5&#34; width=&#34;100.78125&#34; height=&#34;39&#34; class=&#34;label-container&#34;&gt;&lt;/rect&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-40.390625,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;Round Rect&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g class=&#34;node default&#34; id=&#34;flowchart-D-13&#34; transform=&#34;translate(434.62578201293945,89.25)&#34; style=&#34;opacity: 1;&#34;&gt;&lt;polygon points=&#34;55.61015625,0 111.2203125,-55.61015625 55.61015625,-111.2203125 0,-55.61015625&#34; transform=&#34;translate(-55.61015625,55.61015625)&#34; class=&#34;label-container&#34;&gt;&lt;/polygon&gt;&lt;g class=&#34;label&#34; transform=&#34;translate(0,0)&#34;&gt;&lt;g transform=&#34;translate(-32.2890625,-9.5)&#34;&gt;&lt;text style=&#34;&#34;&gt;&lt;tspan xml:space=&#34;preserve&#34; dy=&#34;1em&#34; x=&#34;1&#34;&gt;Rhombus&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/pre&gt;&lt;pre class=&#34;mermaid&#34;&gt;&lt;svg id=&#34;mermaid-1629821296702&#34; width=&#34;100%&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; height=&#34;563&#34; style=&#34;max-width: 499px;&#34; viewBox=&#34;-50 -10 499 563&#34;&gt;&lt;g&gt;&lt;/g&gt;&lt;g&gt;&lt;line id=&#34;actor0&#34; x1=&#34;75&#34; y1=&#34;5&#34; x2=&#34;75&#34; y2=&#34;552&#34; class=&#34;actor-line&#34; stroke-width=&#34;0.5px&#34; stroke=&#34;#999&#34;&gt;&lt;/line&gt;&lt;rect x=&#34;0&#34; y=&#34;0&#34; fill=&#34;#eaeaea&#34; stroke=&#34;#666&#34; width=&#34;150&#34; height=&#34;65&#34; rx=&#34;3&#34; ry=&#34;3&#34; class=&#34;actor&#34;&gt;&lt;/rect&gt;&lt;text x=&#34;75&#34; y=&#34;32.5&#34; dominant-baseline=&#34;central&#34; alignment-baseline=&#34;central&#34; class=&#34;actor&#34; style=&#34;text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;&#34;&gt;&lt;tspan x=&#34;75&#34; dy=&#34;0&#34;&gt;Alice&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;line id=&#34;actor1&#34; x1=&#34;324&#34; y1=&#34;5&#34; x2=&#34;324&#34; y2=&#34;552&#34; class=&#34;actor-line&#34; stroke-width=&#34;0.5px&#34; stroke=&#34;#999&#34;&gt;&lt;/line&gt;&lt;rect x=&#34;249&#34; y=&#34;0&#34; fill=&#34;#eaeaea&#34; stroke=&#34;#666&#34; width=&#34;150&#34; height=&#34;65&#34; rx=&#34;3&#34; ry=&#34;3&#34; class=&#34;actor&#34;&gt;&lt;/rect&gt;&lt;text x=&#34;324&#34; y=&#34;32.5&#34; dominant-baseline=&#34;central&#34; alignment-baseline=&#34;central&#34; class=&#34;actor&#34; style=&#34;text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;&#34;&gt;&lt;tspan x=&#34;324&#34; dy=&#34;0&#34;&gt;Bob&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;defs&gt;&lt;marker id=&#34;arrowhead&#34; refX=&#34;5&#34; refY=&#34;2&#34; markerWidth=&#34;6&#34; markerHeight=&#34;4&#34; orient=&#34;auto&#34;&gt;&lt;path d=&#34;M 0,0 V 4 L6,2 Z&#34;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;defs&gt;&lt;marker id=&#34;crosshead&#34; markerWidth=&#34;15&#34; markerHeight=&#34;8&#34; orient=&#34;auto&#34; refX=&#34;16&#34; refY=&#34;4&#34;&gt;&lt;path fill=&#34;black&#34; stroke=&#34;#000000&#34; stroke-width=&#34;1px&#34; d=&#34;M 9,2 V 6 L16,4 Z&#34; style=&#34;stroke-dasharray: 0, 0;&#34;&gt;&lt;/path&gt;&lt;path fill=&#34;none&#34; stroke=&#34;#000000&#34; stroke-width=&#34;1px&#34; d=&#34;M 0,1 L 6,7 M 6,1 L 0,7&#34; style=&#34;stroke-dasharray: 0, 0;&#34;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;defs&gt;&lt;marker id=&#34;sequencenumber&#34; refX=&#34;15&#34; refY=&#34;15&#34; markerWidth=&#34;60&#34; markerHeight=&#34;40&#34; orient=&#34;auto&#34;&gt;&lt;circle cx=&#34;15&#34; cy=&#34;15&#34; r=&#34;6&#34;&gt;&lt;/circle&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;text x=&#34;200&#34; y=&#34;125&#34; text-anchor=&#34;middle&#34; dominant-baseline=&#34;middle&#34; alignment-baseline=&#34;middle&#34; class=&#34;messageText&#34; dy=&#34;1em&#34; style=&#34;font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial; font-size: 16px; font-weight: 400;&#34;&gt;Hello Bob, how are you?&lt;/text&gt;&lt;line x1=&#34;75&#34; y1=&#34;158&#34; x2=&#34;324&#34; y2=&#34;158&#34; class=&#34;messageLine0&#34; stroke-width=&#34;2&#34; stroke=&#34;none&#34; marker-end=&#34;url(#arrowhead)&#34; style=&#34;fill: none;&#34;&gt;&lt;/line&gt;&lt;text x=&#34;200&#34; y=&#34;218&#34; text-anchor=&#34;middle&#34; dominant-baseline=&#34;middle&#34; alignment-baseline=&#34;middle&#34; class=&#34;messageText&#34; dy=&#34;1em&#34; style=&#34;font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial; font-size: 16px; font-weight: 400;&#34;&gt;Not so good :(&lt;/text&gt;&lt;line x1=&#34;324&#34; y1=&#34;251&#34; x2=&#34;75&#34; y2=&#34;251&#34; class=&#34;messageLine0&#34; stroke-width=&#34;2&#34; stroke=&#34;none&#34; marker-end=&#34;url(#arrowhead)&#34; style=&#34;fill: none;&#34;&gt;&lt;/line&gt;&lt;text x=&#34;200&#34; y=&#34;311&#34; text-anchor=&#34;middle&#34; dominant-baseline=&#34;middle&#34; alignment-baseline=&#34;middle&#34; class=&#34;messageText&#34; dy=&#34;1em&#34; style=&#34;font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial; font-size: 16px; font-weight: 400;&#34;&gt;Feeling fresh like a daisy&lt;/text&gt;&lt;line x1=&#34;324&#34; y1=&#34;344&#34; x2=&#34;75&#34; y2=&#34;344&#34; class=&#34;messageLine0&#34; stroke-width=&#34;2&#34; stroke=&#34;none&#34; marker-end=&#34;url(#arrowhead)&#34; style=&#34;fill: none;&#34;&gt;&lt;/line&gt;&lt;g&gt;&lt;line x1=&#34;65&#34; y1=&#34;168&#34; x2=&#34;334&#34; y2=&#34;168&#34; class=&#34;loopLine&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;334&#34; y1=&#34;168&#34; x2=&#34;334&#34; y2=&#34;354&#34; class=&#34;loopLine&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;65&#34; y1=&#34;354&#34; x2=&#34;334&#34; y2=&#34;354&#34; class=&#34;loopLine&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;65&#34; y1=&#34;168&#34; x2=&#34;65&#34; y2=&#34;354&#34; class=&#34;loopLine&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;65&#34; y1=&#34;266&#34; x2=&#34;334&#34; y2=&#34;266&#34; class=&#34;loopLine&#34; style=&#34;stroke-dasharray: 3, 3;&#34;&gt;&lt;/line&gt;&lt;polygon points=&#34;65,168 115,168 115,181 106.6,188 65,188&#34; class=&#34;labelBox&#34;&gt;&lt;/polygon&gt;&lt;text x=&#34;90&#34; y=&#34;181&#34; text-anchor=&#34;middle&#34; dominant-baseline=&#34;middle&#34; alignment-baseline=&#34;middle&#34; class=&#34;labelText&#34; style=&#34;font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial; font-size: 16px; font-weight: 400;&#34;&gt;alt&lt;/text&gt;&lt;text x=&#34;224.5&#34; y=&#34;186&#34; text-anchor=&#34;middle&#34; class=&#34;loopText&#34; style=&#34;font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial; font-size: 16px; font-weight: 400;&#34;&gt;&lt;tspan x=&#34;224.5&#34;&gt;[is sick]&lt;/tspan&gt;&lt;/text&gt;&lt;text x=&#34;199.5&#34; y=&#34;284&#34; text-anchor=&#34;middle&#34; class=&#34;loopText&#34; style=&#34;font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial; font-size: 16px; font-weight: 400;&#34;&gt;[is well]&lt;/text&gt;&lt;/g&gt;&lt;text x=&#34;200&#34; y=&#34;414&#34; text-anchor=&#34;middle&#34; dominant-baseline=&#34;middle&#34; alignment-baseline=&#34;middle&#34; class=&#34;messageText&#34; dy=&#34;1em&#34; style=&#34;font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial; font-size: 16px; font-weight: 400;&#34;&gt;Thanks for asking&lt;/text&gt;&lt;line x1=&#34;324&#34; y1=&#34;447&#34; x2=&#34;75&#34; y2=&#34;447&#34; class=&#34;messageLine0&#34; stroke-width=&#34;2&#34; stroke=&#34;none&#34; marker-end=&#34;url(#arrowhead)&#34; style=&#34;fill: none;&#34;&gt;&lt;/line&gt;&lt;g&gt;&lt;line x1=&#34;65&#34; y1=&#34;364&#34; x2=&#34;334&#34; y2=&#34;364&#34; class=&#34;loopLine&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;334&#34; y1=&#34;364&#34; x2=&#34;334&#34; y2=&#34;457&#34; class=&#34;loopLine&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;65&#34; y1=&#34;457&#34; x2=&#34;334&#34; y2=&#34;457&#34; class=&#34;loopLine&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;65&#34; y1=&#34;364&#34; x2=&#34;65&#34; y2=&#34;457&#34; class=&#34;loopLine&#34;&gt;&lt;/line&gt;&lt;polygon points=&#34;65,364 115,364 115,377 106.6,384 65,384&#34; class=&#34;labelBox&#34;&gt;&lt;/polygon&gt;&lt;text x=&#34;90&#34; y=&#34;377&#34; text-anchor=&#34;middle&#34; dominant-baseline=&#34;middle&#34; alignment-baseline=&#34;middle&#34; class=&#34;labelText&#34; style=&#34;font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial; font-size: 16px; font-weight: 400;&#34;&gt;opt&lt;/text&gt;&lt;text x=&#34;224.5&#34; y=&#34;382&#34; text-anchor=&#34;middle&#34; class=&#34;loopText&#34; style=&#34;font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial; font-size: 16px; font-weight: 400;&#34;&gt;&lt;tspan x=&#34;224.5&#34;&gt;[Extra response]&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;line x1=&#34;55&#34; y1=&#34;75&#34; x2=&#34;344&#34; y2=&#34;75&#34; class=&#34;loopLine&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;344&#34; y1=&#34;75&#34; x2=&#34;344&#34; y2=&#34;467&#34; class=&#34;loopLine&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;55&#34; y1=&#34;467&#34; x2=&#34;344&#34; y2=&#34;467&#34; class=&#34;loopLine&#34;&gt;&lt;/line&gt;&lt;line x1=&#34;55&#34; y1=&#34;75&#34; x2=&#34;55&#34; y2=&#34;467&#34; class=&#34;loopLine&#34;&gt;&lt;/line&gt;&lt;polygon points=&#34;55,75 105,75 105,88 96.6,95 55,95&#34; class=&#34;labelBox&#34;&gt;&lt;/polygon&gt;&lt;text x=&#34;80&#34; y=&#34;88&#34; text-anchor=&#34;middle&#34; dominant-baseline=&#34;middle&#34; alignment-baseline=&#34;middle&#34; class=&#34;labelText&#34; style=&#34;font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial; font-size: 16px; font-weight: 400;&#34;&gt;loop&lt;/text&gt;&lt;text x=&#34;224.5&#34; y=&#34;93&#34; text-anchor=&#34;middle&#34; class=&#34;loopText&#34; style=&#34;font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial; font-size: 16px; font-weight: 400;&#34;&gt;&lt;tspan x=&#34;224.5&#34;&gt;[Daily query]&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;rect x=&#34;0&#34; y=&#34;487&#34; fill=&#34;#eaeaea&#34; stroke=&#34;#666&#34; width=&#34;150&#34; height=&#34;65&#34; rx=&#34;3&#34; ry=&#34;3&#34; class=&#34;actor&#34;&gt;&lt;/rect&gt;&lt;text x=&#34;75&#34; y=&#34;519.5&#34; dominant-baseline=&#34;central&#34; alignment-baseline=&#34;central&#34; class=&#34;actor&#34; style=&#34;text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;&#34;&gt;&lt;tspan x=&#34;75&#34; dy=&#34;0&#34;&gt;Alice&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;g&gt;&lt;rect x=&#34;249&#34; y=&#34;487&#34; fill=&#34;#eaeaea&#34; stroke=&#34;#666&#34; width=&#34;150&#34; height=&#34;65&#34; rx=&#34;3&#34; ry=&#34;3&#34; class=&#34;actor&#34;&gt;&lt;/rect&gt;&lt;text x=&#34;324&#34; y=&#34;519.5&#34; dominant-baseline=&#34;central&#34; alignment-baseline=&#34;central&#34; class=&#34;actor&#34; style=&#34;text-anchor: middle; font-size: 14px; font-weight: 400; font-family: Open-Sans, sans-serif;&#34;&gt;&lt;tspan x=&#34;324&#34; dy=&#34;0&#34;&gt;Bob&lt;/tspan&gt;&lt;/text&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/pre&gt;&lt;p&gt;流程图  &lt;code&gt;Bug&lt;/code&gt; ，原来第一个  &lt;code&gt;merimaid&lt;/code&gt;  有语法错误，一开始返回了错误信息，修正后正常显示。后续可以配置  &lt;code&gt;css&lt;/code&gt;  样式，修改成自己喜欢的风格。&lt;/p&gt;
+&lt;hr class=&#34;footnotes-sep&#34;&gt;
+&lt;section class=&#34;footnotes&#34;&gt;
+&lt;ol class=&#34;footnotes-list&#34;&gt;
+&lt;li id=&#34;fn1&#34; class=&#34;footnote-item&#34;&gt;&lt;p&gt;脚注 &lt;a href=&#34;#fnref1&#34; class=&#34;footnote-backref&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn2&#34; class=&#34;footnote-item&#34;&gt;&lt;p&gt;另一个脚注 &lt;a href=&#34;#fnref2&#34; class=&#34;footnote-backref&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://yanglinzhuo.github.io/2021/06/03/hello-world/</guid>
+            <guid isPermalink="true">https://yanglinzhuo.github.io/hello-world/</guid>
             <title>Hello World</title>
-            <link>https://yanglinzhuo.github.io/2021/06/03/hello-world/</link>
-            <pubDate>Thu, 03 Jun 2021 16:57:30 +0800</pubDate>
-            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&#34;&gt;&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
-&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
-&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;hexo new &lt;span class=&#34;token string&#34;&gt;&#34;My New Post&#34;&lt;/span&gt;&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
-&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;hexo server&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;hexo generate&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
-&lt;pre class=&#34;line-numbers language-bash&#34; data-language=&#34;bash&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;hexo deploy&lt;span aria-hidden=&#34;true&#34; class=&#34;line-numbers-rows&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
+            <link>https://yanglinzhuo.github.io/hello-world/</link>
+            <pubDate>Sat, 21 Aug 2021 21:41:56 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
+&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo new &lt;span class=&#34;token string&#34;&gt;&#34;My New Post&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo server&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
